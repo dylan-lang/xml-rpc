@@ -1,6 +1,7 @@
 Module:   xml-rpc-client-test-suite
 Synopsis: Tests the xml-rpc-client library
 Author:   Carl Gay
+Copyright: See LICENSE in this distribution for details.
 
 
 define suite xml-rpc-client-test-suite ()
