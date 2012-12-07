@@ -1,7 +1,7 @@
 Module:    xml-rpc-client
 Author:    Carl Gay
 Synopsis:  XML RPC client library
-Copyright: (C) 2002, Carl L Gay.  All rights reserved.
+Copyright: See LICENSE in this distribution for details.
 
 define generic xml-rpc-call
     (url :: <object>, method-name :: <string>, #rest args)

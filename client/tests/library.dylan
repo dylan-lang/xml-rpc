@@ -1,5 +1,6 @@
 Module:   dylan-user
 Author:   Carl Gay
+Copyright: See LICENSE in this distribution for details.
 
 define library xml-rpc-client-test-suite
   use common-dylan;
