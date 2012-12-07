@@ -1,7 +1,7 @@
 Module:    xml-rpc-common
 Synopsis:  Definitions shared by the XML-RPC client and server
 Author:    Carl Gay
-Copyright: (C) 2002, Carl L Gay.  All rights reserved.
+Copyright: See LICENSE in this distribution for details.
 
 
 //---TODO: Verify that <value>foo</value> parses the same as
@@ -14,7 +14,7 @@ define variable *debugging-xml-rpc* :: <boolean> = #f;
 
 // ---TODO: Parameterize this in the Koala config file.
 // If this is true, err when we receive data that we can't parse,
-// even if there's a way to continue.  Mostly here for debugging 
+// even if there's a way to continue.  Mostly here for debugging
 // the server/client, but could be used to validate other servers
 // or clients also.  Not used much yet.
 //

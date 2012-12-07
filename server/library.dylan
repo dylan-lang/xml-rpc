@@ -1,9 +1,7 @@
 Module: dylan-user
 Synopsis:  XML-RPC server
 Author:    Carl Gay
-Copyright: Copyright (c) 2001-2010 Carl L. Gay.  All rights reserved.
-License:      See License.txt in this distribution for details.
-Warranty:  Distributed WITHOUT WARRANTY OF ANY KIND
+Copyright: See LICENSE in this distribution for details.
 
 define library xml-rpc-server
   use common-dylan;
