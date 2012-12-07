@@ -14,7 +14,7 @@ define variable *debugging-xml-rpc* :: <boolean> = #f;
 
 // ---TODO: Parameterize this in the Koala config file.
 // If this is true, err when we receive data that we can't parse,
-// even if there's a way to continue.  Mostly here for debugging 
+// even if there's a way to continue.  Mostly here for debugging
 // the server/client, but could be used to validate other servers
 // or clients also.  Not used much yet.
 //
