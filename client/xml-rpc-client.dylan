@@ -21,7 +21,7 @@ define method xml-rpc-call
     when (*debugging-xml-rpc*)
       format-out("%s\n\n", xml);
     end;
-    let headers = #[#["User-Agent", "Koala XML-RPC client"],
+    let headers = #[#["User-Agent", "XML-RPC client"],
                     #["Content-Type", "text/xml"],
                     #["Pragma", "no-cache"]];
     send-request(conn, #"post", url, content: xml, headers: headers);
@@ -54,15 +54,6 @@ define function create-method-call-xml
   end
 end function create-method-call-xml;
 
-
-/*
-// Quick and dirty.  Should import the string utils from Koala instead.
-//
-define function char-equal?
-    (c1 :: <character>, c2 :: <character>) => (b :: <boolean>)
-  as-lowercase(c1) = as-lowercase(c2)
-end;
-*/
 
 /*
 define function read-response

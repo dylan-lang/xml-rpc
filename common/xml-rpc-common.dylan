@@ -12,7 +12,7 @@ Copyright: See LICENSE in this distribution for details.
 //
 define variable *debugging-xml-rpc* :: <boolean> = #f;
 
-// ---TODO: Parameterize this in the Koala config file.
+// ---TODO: Parameterize this with a config file element.
 // If this is true, err when we receive data that we can't parse,
 // even if there's a way to continue.  Mostly here for debugging
 // the server/client, but could be used to validate other servers
@@ -280,7 +280,7 @@ define table $html-quote-map
       '"' => "&quot;"
       };
 
-// Copied from Koala's utils.dylan.  Fix it there if you fix it here!
+// Copied from http-server's utils.dylan.  Fix it there if you fix it here!
 // I'm sure this could use a lot of optimization.
 define function quote-html
     (text :: <string>, #key stream)
