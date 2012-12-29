@@ -6,7 +6,7 @@ Copyright: See LICENSE in this distribution for details.
 define library xml-rpc-server
   use common-dylan;
   use http-common;
-  use koala;
+  use http-server;
   use io,
     import: { streams };
   use xml-parser;
@@ -19,7 +19,7 @@ define module xml-rpc-server
   use common-dylan;
   use http-common,
     import: { request-content, set-header };
-  use koala;
+  use http-server;
   use streams,
     import: { with-output-to-string, write };
   use xml-parser,
